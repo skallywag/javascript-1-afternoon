@@ -90,12 +90,12 @@ for (var i = 0; i < dog)
 // Code here
 function nameCheck(name){
   if(name === 'steven'){
-    console.log('what is up steven!')
+    return 'what is up steven!'
   }
   if(name === 'Bryan')
-    console.log('Hey Bryan!')
+    return 'Hey Bryan!'
       else {
-        console.log('cool name shithead!')
+        return 'cool name shithead!'
       }
 }
 nameCheck('sam')
@@ -127,11 +127,21 @@ let add = mathSum//
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-function faveColorFinder(){
-
-
+function faveColorFinder(color){
+  if(color === 'red'){
+    return 'red is a great color'
+  }
+  if(color === 'green'){
+    return 'green is a solid favorite color'
+  }
+  if(color === 'black'){
+    return 'so trendy'
+  }
+  else{
+    return 'you need to evaluate your favorite color choice'
+  }
 }
-faveColorFinder('color')
+faveColorFinder('blue')
 //////////////////PROBLEM 13////////////////////
 
 let duck = "cute";
