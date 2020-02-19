@@ -89,9 +89,7 @@ for (var i = 0; i < dog)
 
 // Code here
 function nameCheck(name){
-  if(nameCheck = 'Steven');
-    return 'What is up Steven?';
-  if(name)
+
 }
 
 //////////////////PROBLEM 11////////////////////
