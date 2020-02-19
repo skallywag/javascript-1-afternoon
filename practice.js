@@ -2,7 +2,7 @@
 
 //Create a variable called myName that is a string data type
 //Code here
-var myName = 'sam'
+var myName = 'sam';
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
@@ -115,7 +115,8 @@ function add(p1, p2){
 
 //Code Here
 add(3, 4)
-let add = mathSum//
+/// Store in var math sum??
+
 
 //////////////////PROBLEM 12////////////////////
 
