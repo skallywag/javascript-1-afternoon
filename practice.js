@@ -89,8 +89,16 @@ for (var i = 0; i < dog)
 
 // Code here
 function nameCheck(name){
-
+  if(name === 'steven'){
+    console.log('what is up steven!')
+  }
+  if(name === 'Bryan')
+    console.log('Hey Bryan!')
+      else {
+        console.log('cool name shithead!')
+      }
 }
+nameCheck('sam')
 
 //////////////////PROBLEM 11////////////////////
 
@@ -107,6 +115,7 @@ function add(p1, p2){
 
 //Code Here
 add(3, 4)
+let add = mathSum//
 
 //////////////////PROBLEM 12////////////////////
 
