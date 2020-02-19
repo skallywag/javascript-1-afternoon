@@ -129,16 +129,16 @@ let add = mathSum//
 // Code here
 function faveColorFinder(color){
   if(color === 'red'){
-    return 'red is a great color'
+    return 'red is a great color';
   }
   if(color === 'green'){
-    return 'green is a solid favorite color'
+    return 'green is a solid favorite color';
   }
   if(color === 'black'){
-    return 'so trendy'
+    return 'so trendy';
   }
   else{
-    return 'you need to evaluate your favorite color choice'
+    return 'you need to evaluate your favorite color choice';
   }
 }
 faveColorFinder('blue')
@@ -185,7 +185,7 @@ let age = 27;
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-age = 35;
+age = 28;
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
