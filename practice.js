@@ -38,23 +38,26 @@ var devMountainGoal = null;
 function greeting(name) {
   return 'Hello, ' + name;
 }
-greeting(sam)
+greeting(sam);
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-function newGreeting(){
- 
+var newGreeting = function(name){
+  return 'Hello, ' + name;
 }
+newGreeting('bob')
+
+
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-var groceries = ['apples', 'milk', 'eggs', 'bread'];
+var groceries = ['milk', 'eggs', 'bread'];
 //////////////////PROBLEM 9////////////////////
 
 //Create an object saved to the variable dog.
@@ -63,13 +66,18 @@ var groceries = ['apples', 'milk', 'eggs', 'bread'];
 //and goodBoy (a boolean).
 
 //Code Here
-
+var dog = {
+  name: 'otis',
+  color: 'silver',
+  age: 4,
+  goodBoy: true,
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+for (var i = 0; i < dog)
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
@@ -81,8 +89,11 @@ var groceries = ['apples', 'milk', 'eggs', 'bread'];
 
 // Code here
 function nameCheck(name){
-  
+  if(nameCheck = 'Steven');
+    return 'What is up Steven?';
+  if(name)
 }
+
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
@@ -90,6 +101,7 @@ function nameCheck(name){
 // The add function should return the two parameters added together
 
 //Code Here
+
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
