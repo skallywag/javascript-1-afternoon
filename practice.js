@@ -115,6 +115,8 @@ function add(p1, p2){
 
 //Code Here
 add(3, 4)
+add = mathSum
+
 /// Store in var math sum??
 
 
