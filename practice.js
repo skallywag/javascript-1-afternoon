@@ -57,7 +57,7 @@ newGreeting('bob')
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-var groceries = ['milk', 'eggs', 'bread'];
+let groceries = ['apples', 'milk', 'eggs', 'bread']
 //////////////////PROBLEM 9////////////////////
 
 //Create an object saved to the variable dog.
@@ -77,7 +77,7 @@ var dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-for (var i = 0; i < dog)
+let devMountainClassPet = dog.name 
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
@@ -95,7 +95,7 @@ function nameCheck(name){
   if(name === 'Bryan')
     return 'Hey Bryan!'
       else {
-        return 'cool name shithead!'
+        return 'cool name bro!'
       }
 }
 nameCheck('sam')
@@ -115,9 +115,8 @@ function add(p1, p2){
 
 //Code Here
 add(3, 4)
-add = mathSum
+let result = add(p1, p2)
 
-/// Store in var math sum??
 
 
 //////////////////PROBLEM 12////////////////////
